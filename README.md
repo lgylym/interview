@@ -1,4 +1,4 @@
 interview
 =========
 
-preparation for interviews
+This project maintains my preparation for interviews.
