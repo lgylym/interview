@@ -3,6 +3,7 @@ package Robots;
 import java.util.Scanner;
 
 /**
+ * Controller reads input from stdin and output to stdout
  * Created by lgylym on 2014/11/16.
  */
 public class Controller {
@@ -10,6 +11,10 @@ public class Controller {
         Scanner sc = new Scanner(System.in);
         String psetting = sc.nextLine();
         String[] psettings = psetting.split(" ");
+        if(psettings.length != 2) {
+            System.err.println("Wrong input" + psettings);
+            return;
+        }
         int px = Integer.parseInt(psettings[0]);
         int py = Integer.parseInt(psettings[1]);
 

@@ -4,13 +4,10 @@ package Robots;
  * Created by lgylym on 14-11-16.
  */
 public class Plateau {
-
-
-
-    boolean[][] map; //map positions of rovers to the plateau
+    boolean[][] map; //mark positions of rovers to the plateau
 
     /**
-     * should use create() instead of constructor
+     * should use create() instead of the constructor
      * @param x
      * @param y
      */
@@ -24,6 +21,12 @@ public class Plateau {
         }
     }
 
+    /**
+     * create plateau, performs validity check
+     * @param x
+     * @param y
+     * @return
+     */
     public static Plateau create(int x, int y) {
         if((x <= 0)||(y <= 0)) {
             return null;
@@ -32,6 +35,13 @@ public class Plateau {
         }
     }
 
+    /**
+     * add a new Rover to the map
+     * @param x
+     * @param y
+     * @param heading direction, one of {N, W, S, E}
+     * @return
+     */
     public Rover addRover(int x, int y, char heading) {
         if(isLegal(x, y)) {
             Rover newRover = new Rover(x, y, heading);

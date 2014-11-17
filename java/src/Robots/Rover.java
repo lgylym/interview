@@ -35,6 +35,7 @@ public class Rover {
         return sb.toString();
     }
 
+    //implement "L" "R" action
     private void turn(char way) {
         switch (way) {
             case 'L':
@@ -54,6 +55,7 @@ public class Rover {
         }
     }
 
+    //implement "M" action
     private void move(Plateau currentPlateau) {
         int futureX = coordinate.x + direction.x;
         int futureY = coordinate.y + direction.y;
@@ -80,6 +82,10 @@ public class Rover {
         }
     }
 
+    /**
+     * Get status in the given format, "X Y direction"
+     * @return
+     */
     public String getStatus() {
         StringBuilder sb = new StringBuilder();
         sb.append(coordinate.x + " " + coordinate.y + " ");
