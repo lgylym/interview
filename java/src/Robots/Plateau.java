@@ -73,7 +73,7 @@ public class Plateau {
      * @return
      */
     public boolean isLegal(int x, int y) {
-        if ((x < map.length) && (y < map[0].length) && (map[x][y] == false)) {
+        if ((x < map.length) && (y < map[0].length) && (x >= 0) && (y >=0 ) && (map[x][y] == false)) {
             return true;
         }else {
             return false;

@@ -33,7 +33,7 @@ public class RoverTest extends TestCase {
     }
 
     public void testMultiple() throws Exception {
-        //test collision
+        //test collision case
         Plateau plt = Plateau.create(5, 5);
         Rover r1 = plt.addRover(0,0, 'N');
         Rover r2 = plt.addRover(1,0, 'N');
