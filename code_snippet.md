@@ -13,3 +13,6 @@ c = [[0] * n for i in xrange(m)]
 ### quick sort
 ```
 ```
+
+### use Counter
+* see [here](https://docs.python.org/2/library/collections.html#collections.Counter)
