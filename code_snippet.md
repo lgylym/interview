@@ -17,6 +17,8 @@ c = [[0] * n for i in xrange(m)]
 ### use Counter
 * see [here](https://docs.python.org/2/library/collections.html#collections.Counter)
 
+### use bisect
+
 # Resources
 * https://soulmachine.gitbooks.io/algorithm-essentials/content/java/
 * http://www.cnblogs.com/grandyang/p/4606334.html
