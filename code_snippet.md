@@ -19,3 +19,4 @@ c = [[0] * n for i in xrange(m)]
 
 # Resources
 * https://soulmachine.gitbooks.io/algorithm-essentials/content/java/
+* http://www.cnblogs.com/grandyang/p/4606334.html
