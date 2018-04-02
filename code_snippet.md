@@ -19,8 +19,9 @@ c = [[0] * n for i in xrange(m)]
 
 ### use bisect
 
-# Less known data structures and algorithms
+# Lesser-known data structures and algorithms
 * [binary indexed tree](https://cs.stackexchange.com/questions/10538/bit-what-is-the-intuition-behind-a-binary-indexed-tree-and-how-was-it-thought-a)
+* [segment tree](https://cs.stackexchange.com/questions/14172/origins-of-the-segment-tree-data-structure)
 
 # Resources
 * https://soulmachine.gitbooks.io/algorithm-essentials/content/java/
