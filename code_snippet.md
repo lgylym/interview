@@ -7,6 +7,7 @@ c = [[0] * n for i in xrange(m)]
 ```
 
 ### binary search in list
+* https://github.com/python/cpython/blob/master/Lib/bisect.py
 ```
 ```
 
