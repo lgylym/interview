@@ -27,6 +27,6 @@ c = [[0] * n for i in xrange(m)]
 * [segment tree](https://cs.stackexchange.com/questions/14172/origins-of-the-segment-tree-data-structure)
 
 # Resources
-* https://soulmachine.gitbooks.io/algorithm-essentials/content/java/
-* http://www.cnblogs.com/grandyang/p/4606334.html
-* [sortedcontainer](http://www.grantjenks.com/docs/sortedcontainers/index.html)
+* [git book of solutions](https://soulmachine.gitbooks.io/algorithm-essentials/content/java/)
+* [all leetcode solutions](http://www.cnblogs.com/grandyang/p/4606334.html)
+* [python sortedcontainer](http://www.grantjenks.com/docs/sortedcontainers/index.html)
