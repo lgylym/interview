@@ -1,5 +1,6 @@
 ### General
 * https://github.com/shashank88/system_design
+* https://github.com/donnemartin/system-design-primer/
 
 ### Design Photo Sharing (Instagram, flickr)
 * https://www.educative.io/collection/page/5668639101419520/5649050225344512/5673385510043648
