@@ -6,6 +6,11 @@
 c = [[0] * n for i in xrange(m)]
 ```
 
+### copy list
+```
+b = a[:]
+```
+
 ### binary search in list
 * https://github.com/python/cpython/blob/master/Lib/bisect.py
 * https://research.googleblog.com/2006/06/extra-extra-read-all-about-it-nearly.html
