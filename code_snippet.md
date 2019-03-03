@@ -18,6 +18,11 @@ b = a[:]
 ```
 ```
 
+### sort list of tuples on the first element
+```
+sorted([('a', 1),('b', 2),('c', 3), ('d',4)], key=lambda x: x[0])
+```
+
 ### quick sort
 ```
 ```
