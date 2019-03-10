@@ -11,6 +11,16 @@ c = [[0] * n for i in xrange(m)]
 b = a[:]
 ```
 
+### mimic stack
+```
+a = []
+# push from right
+a.append(b)
+
+# pop from right
+a.pop()
+```
+
 ### binary search in list
 * https://github.com/python/cpython/blob/master/Lib/bisect.py
 * https://research.googleblog.com/2006/06/extra-extra-read-all-about-it-nearly.html
