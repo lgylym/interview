@@ -43,6 +43,12 @@ sorted([('a', 1),('b', 2),('c', 3), ('d',4)], key=lambda x: x[0])
 ### use defaultdict
 * see [here](https://docs.python.org/2/library/collections.html#collections.defaultdict)
 
+### use OrderedDict
+* see [here](https://docs.python.org/3/library/collections.html#collections.OrderedDict)
+
+### use zip
+* see [here](https://www.programiz.com/python-programming/methods/built-in/zip)
+
 ### use bisect
 
 # Lesser-known data structures and algorithms
