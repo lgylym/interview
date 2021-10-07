@@ -21,6 +21,18 @@ a.append(b)
 a.pop()
 ```
 
+### queue
+```
+from collections import deque
+numbers = deque()
+# append right
+numbers.append(1)
+# left
+numbers.popleft()
+# right
+numbers.pop()
+```
+
 ### binary search in list
 * https://github.com/python/cpython/blob/master/Lib/bisect.py
 * https://research.googleblog.com/2006/06/extra-extra-read-all-about-it-nearly.html
